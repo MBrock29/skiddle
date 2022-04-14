@@ -1,0 +1,63 @@
+.card {
+  width: 250px;
+  margin-bottom: 30px;
+  background-color: white;
+  text-align: center;
+  height: fit-content;
+  padding-bottom: 20px;
+}
+
+.container {
+  max-width: 950px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: #45c2be;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  width: calc(100% - 60px);
+  min-height: 40px;
+  font-size: 18px;
+}
+
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.image {
+  height: 50%;
+  width: 100%;
+}
+
+.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.townContainer,
+.dateContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.town,
+.date {
+  padding-left: 40px;
+}
